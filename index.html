@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="BHR Realty Inmobiliaria — Especialistas en propiedades residenciales y comerciales en Tijuana, Baja California. Más de 15 años conectando familias con su hogar ideal." />
+  <meta name="description" content="BHR Realty Inmobiliaria — Especialistas en propiedades residenciales, comerciales e industriales en México." />
   <meta name="keywords" content="inmobiliaria Tijuana, propiedades en venta Tijuana, casas Tijuana, departamentos Zona Río, bienes raíces Baja California" />
   <meta name="author" content="BHR Realty Inmobiliaria" />
   <meta property="og:title" content="BHR Realty Inmobiliaria | Tijuana, Baja California" />
-  <meta property="og:description" content="Especialistas en propiedades de lujo en Tijuana. Más de 15 años de experiencia. Contáctanos hoy." />
+  <meta property="og:description" content="Especialistas en propiedades residenciales, comerciales e industriales en México. Contáctanos hoy." />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#0D0D0D" />
   <title>BHR Realty Inmobiliaria | Tijuana, Baja California</title>
@@ -328,30 +328,6 @@
       50%      { opacity: 1;    transform: scaleY(0.65); }
     }
 
-    /* ===== STATS ===== */
-    .stats {
-      background: var(--dark-3);
-      border-top: 1px solid rgba(184,147,90,0.14);
-      border-bottom: 1px solid rgba(184,147,90,0.14);
-      padding: 60px 0;
-    }
-    .stats-grid { display: grid; grid-template-columns: repeat(4,1fr); }
-    .stat-item {
-      text-align: center; padding: 1.5rem 1rem;
-      border-right: 1px solid rgba(184,147,90,0.12);
-    }
-    .stat-item:last-child { border-right: none; }
-    .stat-num {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(3.5rem, 6vw, 5.5rem); font-weight: 300;
-      color: var(--gold); line-height: 1; margin-bottom: 0.625rem;
-      letter-spacing: -0.02em;
-    }
-    .stat-lbl {
-      font-size: 0.625rem; font-weight: 500;
-      letter-spacing: 0.22em; text-transform: uppercase; color: var(--gray-2);
-    }
-
     /* ===== PROPIEDADES ===== */
     .propiedades { background: var(--dark); position: relative; overflow: hidden; }
     .prop-header {
@@ -535,9 +511,6 @@
       .nos-grid { grid-template-columns: 1fr; gap: 3rem; }
       .nos-visual { display: none; }
       .prop-grid { grid-template-columns: repeat(2,1fr); }
-      .stats-grid { grid-template-columns: repeat(2,1fr); }
-      .stat-item:nth-child(2) { border-right: none; }
-      .stat-item:nth-child(3) { border-right: 1px solid rgba(184,147,90,0.12); }
       .footer-grid { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
     }
     @media (max-width: 768px) {
@@ -552,10 +525,6 @@
       .form-row { grid-template-columns: 1fr; }
     }
     @media (max-width: 480px) {
-      .stats-grid { grid-template-columns: 1fr 1fr; }
-      .stat-item:nth-child(2) { border-right: none; }
-      .stat-item:nth-child(3) { border-right: 1px solid rgba(184,147,90,0.12); border-top: 1px solid rgba(184,147,90,0.12); }
-      .stat-item:nth-child(4) { border-right: none; border-top: 1px solid rgba(184,147,90,0.12); }
       .hero-btns { flex-direction: column; }
       .btn { justify-content: center; }
     }
@@ -608,8 +577,7 @@
       <span class="stroke">te espera aquí</span>
     </h1>
     <p class="hero-sub fu d2">
-      Especialistas en propiedades residenciales y comerciales en Tijuana.
-      Más de 15 años conectando familias con el hogar de sus sueños.
+      Especialistas en propiedades residenciales, comerciales e industriales en México.
     </p>
     <div class="hero-btns fu d3">
       <a href="#propiedades" class="btn btn-gold">Ver Propiedades</a>
@@ -644,30 +612,6 @@
     <span>Bienes Raíces</span><span class="dot">·</span>
   </div>
 </div>
-
-<!-- STATS -->
-<section class="stats" aria-label="Estadísticas">
-  <div class="container">
-    <div class="stats-grid">
-      <div class="stat-item fu">
-        <div class="stat-num" data-target="15" data-suffix="+">0</div>
-        <div class="stat-lbl">Años de Experiencia</div>
-      </div>
-      <div class="stat-item fu d1">
-        <div class="stat-num" data-target="500" data-suffix="+">0</div>
-        <div class="stat-lbl">Propiedades Vendidas</div>
-      </div>
-      <div class="stat-item fu d2">
-        <div class="stat-num" data-target="1200" data-suffix="+">0</div>
-        <div class="stat-lbl">Clientes Satisfechos</div>
-      </div>
-      <div class="stat-item fu d3">
-        <div class="stat-num" data-target="3" data-suffix="">0</div>
-        <div class="stat-lbl">Ciudades</div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- PROPIEDADES -->
 <section class="section propiedades" id="propiedades">
@@ -806,7 +750,7 @@
         <div class="gold-line fu"></div>
         <h2 class="section-title fu">Expertos en bienes raíces de Tijuana</h2>
         <p class="section-sub fu d1">
-          BHR Realty Inmobiliaria es una empresa tijuanense con más de 15 años de experiencia en el mercado inmobiliario de Baja California. Nuestro equipo está comprometido con ofrecerte asesoría personalizada y encontrar la propiedad que se adapte a tus necesidades y presupuesto.
+          BHR Realty Inmobiliaria es una empresa especializada en propiedades residenciales, comerciales e industriales en México. Nuestro equipo está comprometido con ofrecerte asesoría personalizada y encontrar la propiedad que se adapte a tus necesidades y presupuesto.
         </p>
         <div class="nos-features">
           <div class="nos-feat fu d1">
@@ -839,10 +783,6 @@
         </div>
       </div>
       <div class="nos-visual fu d2">
-        <div class="nos-badge" aria-hidden="true">
-          <div class="nos-badge-num">+15</div>
-          <div class="nos-badge-lbl">Años en el mercado</div>
-        </div>
         <img
           class="nos-img"
           src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=75&auto=format&fit=crop"
@@ -975,7 +915,7 @@
           <span style="font-family:'Cormorant Garamond',serif;font-size:1.75rem;font-weight:500;color:var(--gold);letter-spacing:0.05em;">BHR</span>
           <span style="display:block;font-size:0.5rem;font-weight:500;letter-spacing:0.38em;text-transform:uppercase;color:var(--gray-1);margin-top:2px;">Realty Inmobiliaria</span>
         </div>
-        <p class="footer-tagline">Especialistas en bienes raíces en Tijuana y Baja California. Tu hogar ideal nos espera.</p>
+        <p class="footer-tagline">Especialistas en propiedades residenciales, comerciales e industriales en México. Tu hogar ideal nos espera.</p>
         <div class="socials">
           <a href="#" class="social" aria-label="Facebook" target="_blank" rel="noopener">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
