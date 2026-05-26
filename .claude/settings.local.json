@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest bhr-inmobiliaria --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --no-git)",
+      "Bash(npm install *)",
+      "Bash(New-Item -ItemType Directory -Force -Path \"components/layout\", \"components/sections\", \"components/properties\", \"components/ui\", \"lib\", \"types\", \"app/propiedades\", \"app/propiedades/[slug]\", \"app/nosotros\", \"app/contacto\", \"app/api/contact\", \"sanity/schemas\", \"public/images\")",
+      "Bash(Out-Null)",
+      "Bash(Write-Output \"Directories created\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\components/layout\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\components/sections\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\components/properties\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\components/ui\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\lib\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\types\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\app/propiedades/[slug]\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\app/nosotros\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\app/contacto\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\app/api/contact\" \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\sanity/schemas\" 2>&1 && echo \"Done\")",
+      "Bash(npm run *)",
+      "Bash(node -e \"const z = require\\('zod'\\); console.log\\(z.ZodVersion ?? require\\('zod/package.json'\\).version\\)\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\emili\\\\OneDrive\\\\Escritorio\\\\BHR INMOBILIARIA\\\\bhr-inmobiliaria\\\\.claude\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(netstat -ano)",
+      "Bash(taskkill /PID 13852 /F)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:55490/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://localhost:3001/)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://localhost:3000/propiedades)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://localhost:3000/propiedades/departamento-lujo-polanco)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://localhost:3000/nosotros)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\" http://localhost:3000/contacto)",
+      "Bash(cmd /c \"taskkill /PID 13852 /F\")",
+      "Bash(cmd /c \"taskkill /F /IM node.exe\")",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)"
+    ]
+  }
+}

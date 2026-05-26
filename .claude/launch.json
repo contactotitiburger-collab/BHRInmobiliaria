@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bhr-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "bhr-inmobiliaria"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}
